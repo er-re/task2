@@ -30,7 +30,7 @@ python index.py 'environment_flag'
 
 
 ### API endpoints:
-***[bike_officer.jpg](blob:https://imgur.com/f954e3b4-e60e-40c3-ad10-5c175c01c11a)*** shows all endpoints clearly.
+***[bike_officer.jpg](https://imgur.com/f954e3b4-e60e-40c3-ad10-5c175c01c11a)*** shows all endpoints clearly.
 
 ***Post methods***:
 
