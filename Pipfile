@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-restplus = "*"
+flask-restful = "*"
+werkzeug = "==0.16.1"
+marshmallow = "*"
+flask-sqlalchemy = "*"
+flask-restplus-marshmallow = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+flask-restplus-patched = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
