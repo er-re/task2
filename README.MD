@@ -9,9 +9,9 @@
  
 **My slogan in python**:
 
-****"Clean code in minimum lines"****
+**"Clean code in minimum lines"**
  
- #### structure and design implemented in this app: 
+ #### Structure and design implemented in this app: 
  
 We have two tables. bike and officer.
 There are exactly two scripts in all below folders, and both scripts are very similar.
