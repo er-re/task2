@@ -7,13 +7,13 @@
  * [marshmallow](https://marshmallow.readthedocs.io/en/stable/): Simplified object serialization
  * [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/): An extension for Flask that adds support for SQLAlchemy to your application
  
+**my slogan in python**:
+****clean code in minimum lines****
  
- #### implemented design for this project consist of: 
+ #### structure and design implemented in this app: 
  
-Code structure:
-
-We have two tables. Bicycle and officer.
-There are exactly two scripts in all the folders, and both scripts are very similar.
+We have two tables. bike and officer.
+There are exactly two scripts in all below folders, and both scripts are very similar.
 
 Code different parts (folder):
 * **db_model**: Sqlalchemy model
