@@ -7,8 +7,9 @@
  * [marshmallow](https://marshmallow.readthedocs.io/en/stable/): Simplified object serialization
  * [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/): An extension for Flask that adds support for SQLAlchemy to your application
  
-**my slogan in python**:
-****clean code in minimum lines****
+**My slogan in python**:
+
+****"Clean code in minimum lines"****
  
  #### structure and design implemented in this app: 
  
