@@ -26,7 +26,7 @@ Code different parts (folder):
 
 app would run by:
 ```python
-python index.py 'environment_flag'
+PYTHON_ENV=development python src/index.py
 ```
 
 
