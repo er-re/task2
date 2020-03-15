@@ -60,7 +60,6 @@ Assigning the free bikes and officer to each other was handled by:
  
 transaction handled like this:
 ```python
-@contextmanager
 def add_bike(**data):
     try:
         bike = Bike(**data)
