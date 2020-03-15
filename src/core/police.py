@@ -36,7 +36,6 @@ def remove_police(id):
         return False
 
 
-@contextmanager
 def re_enable_police(id):
     try:
         police = Police.query.filter_by(id=id).first()
