@@ -1,5 +1,4 @@
 from sqlalchemy import exc
-from contextlib import contextmanager
 
 from server.instance import server
 from db_model.bike import Bike
@@ -9,7 +8,6 @@ from core.assign import assign
 db = server.db
 
 
-@contextmanager
 def add_bike(**data):
     try:
         bike = Bike(**data)
@@ -22,7 +20,6 @@ def add_bike(**data):
         return False
 
 
-@contextmanager
 def remove_bike(id):
     try:
         bike = Bike.query.filter_by(id=id).first()
