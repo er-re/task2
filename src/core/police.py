@@ -1,5 +1,4 @@
 from sqlalchemy import exc
-from contextlib import contextmanager
 
 from server.instance import server
 from db_model.bike import Bike
@@ -9,7 +8,6 @@ from core.assign import assign
 db = server.db
 
 
-@contextmanager
 def add_police(**data):
     try:
         police = Police(**data)
@@ -22,7 +20,6 @@ def add_police(**data):
         return False
 
 
-@contextmanager
 def remove_police(id):
     try:
         police = Police.query.filter_by(id=id).first()
