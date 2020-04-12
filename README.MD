@@ -2,6 +2,8 @@
 
 *An API for reporting stolen bike and assigning free officer for finding them*
 
+*[video captured from the app](https://filebin.net/dptqxux0a3xl5tm0/bike_officer.mp4?t=93l49142)*
+
 **Libraries used in this repo:**
  * [Flask-restplus](https://flask-restplus.readthedocs.io/en/stable/): An extension for Flask. It provides a coherent collection of decorators and tools to describe your API and expose its documentation properly (using Swagger).
  * [marshmallow](https://marshmallow.readthedocs.io/en/stable/): Simplified object serialization
@@ -72,5 +74,15 @@ def add_bike(**data):
         return False
 ```
  
+### phase 2 (two services)
+In this phase we add kafka for sending the assigned officer to another app.
+Assignment of stolen bike to officers after each change was happen automatically. 
+by adding kafka, after each auto assignment a message with the content of **officer name** and 
+**phone number of bike owner** will be sent to the kafka broker.
+Another app consumes these messages, and shows them live on the browser and store them on a NoSQL database (MongoDB).
 
+all app's functionality in runtime was captured by a video and is available in this address
+
+*[video captured from the app](https://filebin.net/dptqxux0a3xl5tm0/bike_officer.mp4?t=93l49142)*
+   
  
