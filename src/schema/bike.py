@@ -2,7 +2,7 @@ from marshmallow import fields, post_load, pre_load,  ValidationError
 
 from server.instance import server
 from db_model.bike import BikeTypeEnum
-from core.bike import add_bike, remove_bike
+from core.bike import add_bike
 
 
 ma = server.ma
@@ -16,6 +16,7 @@ def validate_type(bike_type):
 class BikeSchema(ma.Schema):
     id = fields.Int()
     owner = fields.Str(required=True)
+    phone = fields.Str(required=True)
     license_number = fields.Int(required=True)
     color = fields.Str()
     bike_type = fields.Str(validate=validate_type)

@@ -9,3 +9,5 @@ class Police(db.Model):
     bike_id = db.Column(db.Integer, db.ForeignKey('bike.id'), nullable=True)
     off = db.Column(db.Boolean, default=False)
 
+    def __repr__(self):
+        return f'officer "{self.name}"'

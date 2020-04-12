@@ -1,7 +1,7 @@
 from marshmallow import fields, post_load
 
 from server.instance import server
-from core.police import add_police, remove_police
+from core.police import add_police
 
 ma = server.ma
 

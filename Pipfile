@@ -14,6 +14,7 @@ flask-restplus-marshmallow = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
 flask-restplus-patched = "*"
+confluent-kafka = "*"
 
 [dev-packages]
 
