@@ -18,6 +18,7 @@ bike = api.namespace('bike', description='bikes information', path='/')
 class Bike(Resource):
 
     @bike.param('owner', type='string')
+    @bike.param('phone', type='string')
     @bike.param('license_number', type='integer')
     @bike.param('color',  type='string')
     @bike.param('bike_type', type='enum')
